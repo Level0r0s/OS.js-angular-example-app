@@ -57,6 +57,8 @@
   };
 
   ApplicationAngularWindow.prototype.destroy = function() {
+    System.delete(System.normalizeSync('app/main'));
+
     Window.prototype.destroy.apply(this, arguments);
   };
 
