@@ -3,7 +3,7 @@
   "name":       "Angular",
   "mime":       null,
   "icon":       "categories/applications-system.png",
-  "singluar":   true,
+  "singular":   true,
   "build":      {
     "copy": [
       "scheme.html",
